@@ -1,0 +1,74 @@
+/* Date input styles collected from all step components */
+
+/* From Step5 ServicesAndCertificationsForm.css */
+
+/* Date Fields */
+.date-fields-section {
+    margin-bottom: 2rem;
+}
+
+.date-fields-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.date-field-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-field-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.date-input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+/* Date Badge Section */
+.date-badge-section {
+    margin-bottom: 2rem;
+}
+
+.date-badge-input-row {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.date-badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+.date-badge {
+    background: rgba(5, 64, 136, 0.832);
+    color: white;
+    padding: 0.4rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Date Links - From Step6 */
+.date-links {
+    line-height: 1.8;
+}
+
+.date-link {
+    color: rgba(32, 95, 172, 0.832);
+    font-size: 0.9rem;
+    font-weight: bold;
+}

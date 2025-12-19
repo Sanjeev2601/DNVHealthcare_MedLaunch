@@ -1,0 +1,31 @@
+.footer {
+    background-color: transparent;
+    padding: var(--spacing-lg) var(--spacing-xl);
+    /* Fixed at bottom or just at bottom of flow, design looks like it might be sticky or just at bottom of content. Use standard flow for now. */
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: var(--container-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer-actions {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+/* Fixed Support Chat Button */
+.support-chat-container {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+}

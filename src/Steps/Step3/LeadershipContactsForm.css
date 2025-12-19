@@ -1,0 +1,35 @@
+.section-subtitle-2 {
+    font-size: 1.2rem;
+    color: #666666af;
+    margin-bottom: 1rem;
+}
+
+/* Contact Card Containers */
+.contact-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+/* Remove extra space from email wrapper */
+.email-group-wrapper {
+    margin-bottom: 0;
+}
+
+.contact-card .form-section > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Remove extra space from last form group in contact cards */
+.contact-card .form-group:last-of-type {
+    margin-bottom: 0;
+}
+
+.contact-card .email-group-wrapper {
+    margin-bottom: 0;
+}
+
+.contact-card .form-section {
+    margin-bottom: 0;
+}

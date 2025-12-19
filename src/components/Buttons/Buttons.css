@@ -1,0 +1,244 @@
+/* Button styles collected from all step components */
+
+/* From Footer.css */
+.btn {
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: var(--font-size-md);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
+
+.btn-primary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border: none;
+}
+
+.btn-primary-dark {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    margin-right: var(--spacing-md);
+}
+
+.btn-support {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: 20px;
+    /* Pill shape */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* From Step1 QuoteRequestForm.css */
+.btn-verify {
+    padding: 8px 16px;
+    font-size: var(--font-size-sm);
+    border-color: var(--color-button-secondary-border);
+    color: var(--color-button-secondary-border);
+}
+
+/* From Step4 SiteInformationForm.css */
+.btn-upload {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.btn-upload:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.download-template {
+    display: block;
+    margin-top: 1rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.download-template:hover {
+    text-decoration: underline;
+}
+
+.remove-file-btn-circle {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: white;
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: 1rem;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.remove-file-btn-circle:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* From Step5 ServicesAndCertificationsForm.css */
+.all-services-btn {
+    background: none;
+    border: 1px solid #d0d0d0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--color-text-primary);
+}
+
+.all-services-btn:hover {
+    background: #f5f5f5;
+}
+
+.tag-remove {
+    background: none;
+    border: none;
+    color: rgba(32, 95, 172, 0.832);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.badge-remove {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.add-other-service-btn {
+    background: none;
+    border: 2px solid rgba(32, 95, 172, 0.832);
+    color: rgba(32, 95, 172, 0.832);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.add-other-service-btn:hover {
+    background: #f0f7ff;
+}
+
+.btn-primary-sm {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.btn-primary-sm:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn-outline-sm {
+    background: none;
+    border: 1px solid #d0d0d0;
+    color: var(--color-text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.btn-outline-sm:hover {
+    background: #f5f5f5;
+}
+
+/* From Step6 ReviewAndSubmitForm.css */
+.edit-link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.edit-link:hover {
+    text-decoration: underline;
+}
+
+.btn-download,
+.btn-export {
+    background: white;
+    border: 2px solid rgba(32, 95, 172, 0.832);
+    color: rgba(32, 95, 172, 0.832);
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.btn-download:hover,
+.btn-export:hover {
+    background: #f0f7ff;
+}
+
+.btn-submit {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.btn-submit:hover {
+    background: var(--color-primary-dark);
+}
+
+.btn-submit:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-disabled {
+    background: #ccc !important;
+    cursor: not-allowed !important;
+    opacity: 0.6;
+}

@@ -1,0 +1,74 @@
+:root {
+  /* Colors */
+  --color-primary: #003057;
+  /* Deep Blue form branding */
+  --color-secondary: #005eb8;
+  /* DNV Blue */
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-border: #e0e0e0;
+  --color-background: #f4f6f8;
+  /* Light gray background */
+  --color-white: #ffffff;
+  --color-error: #d32f2f;
+
+  --color-button-primary-bg: #005eb8;
+  --color-button-primary-text: #ffffff;
+  --color-button-secondary-bg: #ffffff;
+  --color-button-secondary-text: #005eb8;
+  --color-button-secondary-border: #005eb8;
+
+  --color-verified-bg: #fff3c4;
+  --color-verified-text: #5e4b06;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 40px;
+
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+  /* Example font */
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 24px;
+
+  /* Layout */
+  --container-width: 960px;
+  --header-height: 60px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}

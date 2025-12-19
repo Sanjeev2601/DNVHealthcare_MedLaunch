@@ -1,0 +1,105 @@
+.quote-form {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    background-color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: 8px;
+    /* Optional, looks card-like */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    /* Subtle shadow for card look */
+    margin-bottom: var(--spacing-xxl);
+}
+
+.form-section {
+    margin-bottom: var(--spacing-xxl);
+}
+
+.section-title {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    /* Dark greyish */
+    margin-bottom: var(--spacing-md);
+    font-weight: 600;
+}
+
+.section-subtitle {
+    font-size: var(--font-size-sm);
+    color: #9baaB5;
+    /* Lighter text for subtitle */
+    margin-bottom: var(--spacing-md);
+    margin-top: -10px;
+    /* Pull closer to title */
+}
+
+
+.form-row {
+    display: flex;
+    gap: var(--spacing-lg);
+    width: 100%;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.email-group-wrapper {
+    position: relative;
+}
+
+.refresh-icon-header {
+    font-size: 20px;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.refresh-icon-header:hover {
+    color: var(--color-primary);
+}
+
+.verification-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spacing-sm);
+}
+
+
+
+.badge-not-verified {
+    background-color: var(--color-verified-bg);
+    color: var(--color-verified-text);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+/* Radio Group Styles for Step 2 */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-sm);
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.radio-option input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--color-secondary);
+    cursor: pointer;
+}
+
+.radio-option label {
+    font-size: var(--font-size-md);
+    color: var(--color-text-primary);
+    font-weight: 500;
+    cursor: pointer;
+}

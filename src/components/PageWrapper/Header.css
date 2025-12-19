@@ -1,0 +1,44 @@
+.header {
+    background-color: var(--color-primary);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    padding: 0 var(--spacing-lg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.details-circle {
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+}
+
+.user-name {
+    font-size: var(--font-size-sm);
+}

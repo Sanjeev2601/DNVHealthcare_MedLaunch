@@ -1,0 +1,124 @@
+/* Responsive CSS - Centralized Media Queries */
+
+/* Step 5 - Services and Certifications Form Responsive Styles */
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+
+    .service-checkbox-group {
+        gap: 0.5rem;
+    }
+
+    .checkbox-item {
+        font-size: 0.9rem;
+    }
+
+    .standards-dropdown {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .selected-standards {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .standard-tag {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .dates-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .date-input-group {
+        width: 100%;
+    }
+}
+
+/* Step 6 - Review and Submit Form Responsive Styles */
+@media (max-width: 768px) {
+    .review-section {
+        padding: 1rem;
+    }
+
+    .collapsible-header {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .review-row {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .review-label,
+    .review-value {
+        font-size: 0.9rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .btn-download,
+    .btn-export {
+        width: 100%;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .right-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
+        align-items: stretch;
+    }
+
+    .btn,
+    .btn-outline,
+    .btn-primary {
+        width: auto;
+        min-width: 120px;
+    }
+}
+
+
+/* Support Chat Button - Hide text on mobile, show only icon */
+@media (max-width: 768px) {
+    .btn-support {
+        padding: 0 !important;
+        min-width: auto;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0;
+        text-align: center;
+    }
+
+    .btn-support .support-icon {
+        font-size: 1.5rem;
+        display: block;
+        margin-left: 6px;
+    }
+}
