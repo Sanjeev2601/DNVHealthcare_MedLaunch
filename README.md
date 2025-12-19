@@ -195,13 +195,7 @@ src/
    - ZIP code validation is basic (5 or 9 digits)
    - **Recommendation**: Implement server-side validation
 
-6. **Accessibility**
-   - Basic accessibility features implemented
-   - Could benefit from enhanced ARIA labels
-   - Keyboard navigation works but could be improved
-   - **Recommendation**: Full accessibility audit needed
-
-7. **Mobile Responsiveness**
+6. **Mobile Responsiveness**
    - Responsive design implemented
    - Some complex forms may be challenging on very small screens
    - **Status**: Tested on common viewport sizes
