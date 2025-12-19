@@ -20,7 +20,7 @@ A multi-step form application for healthcare organizations to request quotes for
 
 1. **Clone or download the repository**
    ```bash
-   cd medlaunch_backup_latest
+   cd Medlaunch_Challenge_Final
    ```
 
 2. **Install dependencies**
