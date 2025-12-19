@@ -205,8 +205,3 @@ src/
    - Responsive design implemented
    - Some complex forms may be challenging on very small screens
    - **Status**: Tested on common viewport sizes
-
-8. **Browser Compatibility**
-   - Optimized for modern browsers (Chrome, Firefox, Safari, Edge)
-   - May have issues with older browsers
-   - **Recommendation**: Add polyfills if older browser support needed
